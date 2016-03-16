@@ -7,11 +7,7 @@
 #       - Every node broadcasts at regular intervals on UDP port 5670, to identify himself
 #   - Once peer discovered, TCP connection with EACH peer separately (using ZeroMQ) is set up to send messages
 #
-#   ==> No central server required!
-#
-#
-#   Copyright 2016 Maxime Bossens
-#   Bitbucket: https://mbossens@bitbucket.org/mbossens/ecs-pyre-demo.git
+#   ==> No broker required!
 #
 ################################################################################################
 
